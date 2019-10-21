@@ -44,7 +44,7 @@ computation_function <- function(filename) {
   GridID = ncvar_get(data_in, "Reach_Timeseries/GridID")
 
 
-  number_of_days = 690
+  number_of_days = 470
   W_obs <- W_obs[ , 320:number_of_days, drop=FALSE]
   H_obs <- H_obs[ , 320:number_of_days , drop=FALSE]
   Q_obs <- Q_obs[ , 320:number_of_days , drop=FALSE]

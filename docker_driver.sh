@@ -13,5 +13,6 @@ docker run  -v "$PWD":/usr/local/src/app -p 8082:8082 amuhebwa/confluence_integr
 echo "**************** Integrator computations finished ***********************************"
 
 echo "**************** starting post-diagnostics ***********************************"
-docker run  -v "$PWD":/usr/local/src/app -p 8083:8083 amuhebwa/postdiagnostics
+docker run  -v "$PWD":/usr/local/src/app -p 8083:8083 amuhebwa/amuhebwa/confluence_postdiagnostics
 echo "**************** post-diagnostics completed ***********************************"
+
