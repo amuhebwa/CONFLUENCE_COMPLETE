@@ -147,7 +147,7 @@ def main(ncfile, routing_table):
         dA = f.variables['dA'][:].data
     else:
         dA = None
-    
+
     print("Original Dimensions are; ")
     print('H: {},W: {}, S: {}, dA: {}'.format(H.shape, W.shape, S.shape, dA.shape))
 
@@ -155,7 +155,7 @@ def main(ncfile, routing_table):
     tempIndex = np.where(np.all(tempS > -1000, axis=1))[0]
 
     H, W, S, dA = removeFlagged(H, W, S, dA)
-    #code.interact(local=locals())
+
     print("New Dimensions are; ")
     print('H: {},W: {}, S: {}, dA: {}'.format(H.shape, W.shape, S.shape, dA.shape))
 
