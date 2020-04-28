@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "**************** starting pre-diagnostics ***********************************"
-docker run -v "$PWD":/usr/local/src/app -p 8080:8080 amuhebwa/confluence_prediagnostics
+docker run -v /mnt/d/Confluence/CONFLUENCE_COMPLETE:/usr/local/src/app -p 8080:8080 amuhebwa/confluence_prediagnostics
 echo "**************** pre-diagnostics completed ***********************************"
 
 

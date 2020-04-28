@@ -12,10 +12,10 @@ import code
 #cmd4 = 'docker run -v /Users/amuhebwa/Documents/Python/CONFLUENCE_COMPLETE:/usr/local/src/app -p 8083:8083 amuhebwa/confluence_postdiagnostics'
 
 # For windows
-cmd1 = 'docker run -v C:\CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_prediagnostics'
-cmd2 = 'docker run -v C:\CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/bam_algorithm'
-cmd3 = 'docker run -v C:\CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_integrator'
-cmd4 = 'docker run -v C:\CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_postdiagnostics'
+cmd1 = 'docker run -v D:\Box Sync/Confluence/CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_prediagnostics'
+cmd2 = 'docker run -v D:\Box Sync/Confluence/CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/bam_algorithm'
+cmd3 = 'docker run -v D:\Box Sync/Confluence/CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_integrator'
+cmd4 = 'docker run -v D:\Box Sync/Confluence/CONFLUENCE_COMPLETE:/usr/local/src/app amuhebwa/confluence_postdiagnostics'
 
 
 print("************* STARTING PRE-DIAGNOSTICS ***************")
